@@ -14,7 +14,7 @@ Route::get('/hello',function(){
 
 
 Route::get('/about',function(){
-    return '<h1>Hi Zaki Hassani</h1> <p>This page and is created by <b>Zaki</b></p>';
+    return '<h1>Hi Hamza Nawabi</h1> <p>This page and is created by <b>Hamza</b></p>';
 });
 
 Route::get('/sum/{a}/{b}',function(int $a , int $b){
